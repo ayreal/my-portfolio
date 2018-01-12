@@ -20,7 +20,7 @@ body {
   background-attachment: fixed;
 }
 
-div {
+.triangle {
   margin: 3em auto;
   height: 10.5em;
   width: 14em;
@@ -30,7 +30,7 @@ div {
   transform-origin: 6em 3.5em;
 }
 
-div:before {
+.triangle:before {
   content: "";
   position: absolute;
   width: 0;
@@ -41,7 +41,7 @@ div:before {
   transition: 0.7s ease;
 }
 
-div:after {
+.triangle:after {
   content: "";
   position: absolute;
   width: 0;
@@ -49,11 +49,11 @@ div:after {
   margin: 0.5em 1em;
   border-left: 6em solid transparent;
   border-right: 6em solid transparent;
-  border-top: 10em solid #fdd22c;
+  border-top: 10em solid rgba(254, 247, 109, 1);
   transition: 0.7s ease;
 }
 
-div + p {
+.triangle + p {
   text-align: center;
   position: relative;
   font-family: Fredoka One;
@@ -75,6 +75,10 @@ article {
   color: #000;
 }
 
+section {
+  background-color: #000;
+}
+
 h1 {
   font-family: Fredoka One;
   font-size: 2em;
@@ -82,7 +86,8 @@ h1 {
   font-weight: 400;
   position: relative;
   margin: 1em 0;
-  top: 0.75em;
+  top: 0.25em;
+  left: -0.25em;
   z-index: 4;
   display: inline-block;
   color: #fff;
