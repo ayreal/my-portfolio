@@ -22,7 +22,7 @@ body {
 }
 
 /* fallback */
-@font-face {
+/* @font-face {
   font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
@@ -43,7 +43,7 @@ body {
   direction: ltr;
   -webkit-font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
-}
+} */
 
 .triangle {
   margin: 3em auto;
