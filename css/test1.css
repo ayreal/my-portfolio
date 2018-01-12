@@ -162,7 +162,7 @@ h2:before {
   height: 50px;
   top: -2.5em;
   left: 0.25em;
-  background-color: rgba(254, 247, 109, 1);
+  background-image: url("../img/grid.png");
   transform: rotate(-15deg);
   display: block;
   position: absolute;
