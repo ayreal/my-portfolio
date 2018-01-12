@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Fredoka+One|Quicksand";
-@import "https://fonts.googleapis.com/css?family=Open+Sans:300";
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
 
 *,
 *:before,
@@ -71,13 +71,12 @@ article:first-of-type {
   box-shadow: 0.5em 0.5em black;
   padding: 1.5em;
   background-color: #fff;
-  /* background-color: rgba(247, 214, 229, 1); */
   color: #000;
 }
-
+/*
 section {
   background-color: rgba(30, 102, 178, 1);
-}
+} */
 
 h1 {
   font-family: Fredoka One;
@@ -152,7 +151,7 @@ h2:after {
   display: block;
   margin: -0.1em -1em;
   z-index: -1;
-  transform: rotate(-2deg);
+  transform: rotate(5deg);
   box-shadow: 4px 4px #000;
 }
 
@@ -160,10 +159,10 @@ h2:before {
   content: "";
   width: 50px;
   height: 50px;
-  top: -0.5em;
-  left: 4em;
+  top: -2.5em;
+  left: 0.25em;
   background-color: rgba(254, 247, 109, 1);
-  transform: rotate(10deg);
+  transform: rotate(-15deg);
   display: block;
   position: absolute;
   z-index: -1;
@@ -205,8 +204,6 @@ hr.zag {
   margin-top: -28px;
 }
 
-/* h3 {
-  font-family: "Open Sans";
-  font-weight: "semi-bold";
-  font-size: 1em;
-} */
+title {
+  font-weight: bold;
+}
