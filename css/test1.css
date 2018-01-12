@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Fredoka+One|Quicksand";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300";
 
 *,
 *:before,
@@ -65,11 +66,11 @@ div + p {
 article {
   margin: 7em auto 5em;
   max-width: 600px;
-  font-family: Quicksand;
-  font-weight: bolder;
+  font-family: "Open Sans";
+  font-weight: regular;
   border-radius: 3px;
   box-shadow: 0.5em 0.5em black;
-  padding: 1em;
+  padding: 1.5em;
   background-color: rgba(247, 214, 229, 1);
   color: #000;
 }
@@ -81,6 +82,7 @@ h1 {
   font-weight: 400;
   position: relative;
   margin: 1em 0;
+  top: 0.75em;
   z-index: 4;
   display: inline-block;
   color: #fff;
@@ -107,10 +109,11 @@ h1:before {
   content: "";
   width: 200px;
   height: 200px;
-  top: -4.5em;
-  left: 4.5em;
+  top: -5em;
+  left: 4em;
   border-radius: 50%;
   background: url("../img/me-red2.png");
+  transform: rotate(10deg);
   display: block;
   position: absolute;
   z-index: -1;
